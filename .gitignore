@@ -1,0 +1,27 @@
+/servidor/node_modules
+/servidor/package-lock.json
+
+
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/react-canvas/node_modules
+/react-canvas/.pnp
+/react-canvas/.pnp.js
+
+# testing
+/react-canvas/coverage
+
+# production
+/react-canvas/build
+
+# misc
+/react-canvas/.DS_Store
+/react-canvas/.env.local
+/react-canvas/.env.development.local
+/react-canvas/.env.test.local
+/react-canvas/.env.production.local
+
+/react-canvas/npm-debug.log*
+/react-canvas/yarn-debug.log*
+/react-canvas/yarn-error.log*

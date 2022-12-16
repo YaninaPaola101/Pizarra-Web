@@ -1,0 +1,69 @@
+.App {
+	margin: 0px;
+    padding: 0px;
+    background-color: rgb(127, 212, 255);
+	display: flex;
+  flex-direction:row ;
+}
+canvas{
+    background-color: white;
+    margin: 10px;
+	
+}
+h1{
+  margin: 5px;
+}
+h2{
+  margin: 5px;
+}
+.Barra{
+  margin:10px;
+}
+.Colorea{
+  margin: 8px;
+}
+.DB{
+  display: flex;
+  flex-direction: column;
+  height: 700px;
+    width: 100%;
+	background-color: paleturquoise;
+	padding-top: 10px;
+}
+.Menu {
+	display: flex;
+  flex-direction:column ;
+	height: 700px;
+    width: 30%;
+	background-color: paleturquoise;
+	padding-top: 10px;
+}
+#Colores button{
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+}
+.Botones button{
+  background-color: bisque;
+  margin: 5px;
+  width: 150px;
+  height: 30px;
+}
+#rojo{
+  background-color: red;
+}
+#naranja{
+  background-color: orangered;
+}
+#azul{
+  background-color: blue;
+}
+#verde{
+  background-color: green;
+}
+#amarillo{
+  background-color: yellow;
+}
+#negro{
+  background-color: black;
+}

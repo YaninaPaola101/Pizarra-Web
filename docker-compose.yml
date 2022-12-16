@@ -1,0 +1,16 @@
+version: "3.9"
+services:
+    expressapp:
+        container_name: expressapp
+        build: ./servidor
+        expose:
+            - 5000
+        volumes:
+            - servidor:/usr/src/app
+    reactapp:
+        container_name: reactapp
+        build: ./react-canvas
+        expose:
+            - 3000
+        volumes:
+            -react-canvas:/usr/src/app
